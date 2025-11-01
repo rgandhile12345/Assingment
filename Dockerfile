@@ -7,6 +7,6 @@ WORKDIR /var
 #copy file
 COPY etl.py .
 #expose streamlit
-EXPOSE 8501
+EXPOSE 8502
 # run streamlit app
 CMD ["streamlit", "run", "etl.py"]
